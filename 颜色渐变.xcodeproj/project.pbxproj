@@ -14,6 +14,10 @@
 		EEC6DC5A1B205D90009A611F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC6DC591B205D90009A611F /* Images.xcassets */; };
 		EEC6DC5D1B205D90009A611F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC6DC5B1B205D90009A611F /* LaunchScreen.xib */; };
 		EEC6DC691B205D90009A611F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC6DC681B205D90009A611F /* ____Tests.m */; };
+		EEC6DC731B2064D7009A611F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC6DC721B2064D7009A611F /* 1.png */; };
+		EEC6DC751B20666C009A611F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EEC6DC741B20666C009A611F /* 2.png */; };
+		EEC6DC791B206812009A611F /* MycellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC6DC771B206812009A611F /* MycellTableViewCell.m */; };
+		EEC6DC7A1B206812009A611F /* MycellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC6DC781B206812009A611F /* MycellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		EEC6DC621B205D90009A611F /* 颜色渐变Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "颜色渐变Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC6DC671B205D90009A611F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEC6DC681B205D90009A611F /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		EEC6DC721B2064D7009A611F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		EEC6DC741B20666C009A611F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		EEC6DC761B206812009A611F /* MycellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MycellTableViewCell.h; sourceTree = "<group>"; };
+		EEC6DC771B206812009A611F /* MycellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MycellTableViewCell.m; sourceTree = "<group>"; };
+		EEC6DC781B206812009A611F /* MycellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MycellTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,9 @@
 		EEC6DC401B205D90009A611F = {
 			isa = PBXGroup;
 			children = (
+				EEC6DC761B206812009A611F /* MycellTableViewCell.h */,
+				EEC6DC771B206812009A611F /* MycellTableViewCell.m */,
+				EEC6DC781B206812009A611F /* MycellTableViewCell.xib */,
 				EEC6DC4B1B205D90009A611F /* 颜色渐变 */,
 				EEC6DC651B205D90009A611F /* 颜色渐变Tests */,
 				EEC6DC4A1B205D90009A611F /* Products */,
@@ -81,6 +93,8 @@
 		EEC6DC4B1B205D90009A611F /* 颜色渐变 */ = {
 			isa = PBXGroup;
 			children = (
+				EEC6DC741B20666C009A611F /* 2.png */,
+				EEC6DC721B2064D7009A611F /* 1.png */,
 				EEC6DC501B205D90009A611F /* AppDelegate.h */,
 				EEC6DC511B205D90009A611F /* AppDelegate.m */,
 				EEC6DC531B205D90009A611F /* ViewController.h */,
@@ -201,7 +215,10 @@
 			files = (
 				EEC6DC581B205D90009A611F /* Main.storyboard in Resources */,
 				EEC6DC5D1B205D90009A611F /* LaunchScreen.xib in Resources */,
+				EEC6DC731B2064D7009A611F /* 1.png in Resources */,
 				EEC6DC5A1B205D90009A611F /* Images.xcassets in Resources */,
+				EEC6DC751B20666C009A611F /* 2.png in Resources */,
+				EEC6DC7A1B206812009A611F /* MycellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC6DC551B205D90009A611F /* ViewController.m in Sources */,
+				EEC6DC791B206812009A611F /* MycellTableViewCell.m in Sources */,
 				EEC6DC521B205D90009A611F /* AppDelegate.m in Sources */,
 				EEC6DC4F1B205D90009A611F /* main.m in Sources */,
 			);
