@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MycellTableViewCell.h
 //  颜色渐变
 //
 //  Created by 邓西亮 on 15/6/4.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MycellTableViewCell.h"
-@interface ViewController : UIViewController
 
+@interface MycellTableViewCell : UITableViewCell
 
 @end
-
