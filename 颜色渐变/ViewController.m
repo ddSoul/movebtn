@@ -21,6 +21,7 @@
     ////
     UILabel *lb = [[UILabel alloc]init];
     lb.backgroundColor = [UIColor redColor];
+    [self.view addSubview:lb];
     
     
     
